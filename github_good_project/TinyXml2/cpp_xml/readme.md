@@ -183,6 +183,15 @@ using namespace tinyxml2;
 
 
 
+#### 2.6 循环遍历
+
+```c
+// 上一个同级节点 
+XMLElement*	PreviousSiblingElement( const char* name = 0 )
+// 下一个同级节点
+const XMLElement*	NextSiblingElement( const char* name = 0 ) const;
+```
+
 
 
 
