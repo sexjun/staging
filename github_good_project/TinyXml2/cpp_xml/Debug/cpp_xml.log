@@ -1,0 +1,3 @@
+﻿  cpp_xml.cpp
+C:\Users\cds\Desktop\github_project\staging\github_good_project\TinyXml2\cpp_xml\cpp_xml.cpp(142): warning C4715: “create_xml_file”: 不是所有的控件路径都返回值
+  cpp_xml.vcxproj -> C:\Users\cds\Desktop\github_project\staging\github_good_project\TinyXml2\cpp_xml\Debug\cpp_xml.exe
