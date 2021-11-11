@@ -32,7 +32,7 @@ def split_img_2_rgb_channel(img):
         return r, g, b
     elif(img.shape[2] == 4):
         logging.error("img is argb")
-        a, b, g, r = cv.split(img)
+        b, g, r, a = cv.split(img)
         return a, r, g, b
         
 
@@ -53,7 +53,9 @@ def color_space_changed(img):
 def img_info_analysis(img):
     if (img is None):
         return False
-    hight, width, chanel = img.shape
+    hight, width, chanel = img.shape    # 宽，高，通道数
+    size = img.size # 总通道数=高* 宽* 通道数
+    dtype = img.dtype # uint8  3个通道每个通道占的位数（8位，一个字节）
     logging.info("hight:{}, width:{}, chanel:{}".format(hight, width, chanel))
 
 
