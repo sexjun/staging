@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../cJSON/cJSON.h
+stddef.h
+-
+
+C:/Users/cds/Desktop/github_project/staging/github_good_project/cJSonProjects/code_for_cds/main.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+cJSON.h
+C:/Users/cds/Desktop/github_project/staging/github_good_project/cJSonProjects/code_for_cds/cJSON.h
+

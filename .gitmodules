@@ -2,3 +2,9 @@
 [submodule "github_good_project/cJSonProjects/cJSON"]
 	path = github_good_project/cJSonProjects/cJSON
 	url = https://github.com/DaveGamble/cJSON.git
+[submodule "github_good_project/cmake_leaner/cmake-examples"]
+	path = github_good_project/cmake_leaner/cmake-examples
+	url = https://github.com/ttroy50/cmake-examples
+[submodule "github_good_project/cmake_leaner/cmake-demo"]
+	path = github_good_project/cmake_leaner/cmake-demo
+	url = https://github.com/wzpan/cmake-demo

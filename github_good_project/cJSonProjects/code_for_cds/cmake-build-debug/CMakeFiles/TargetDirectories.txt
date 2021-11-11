@@ -1,0 +1,3 @@
+C:/Users/cds/Desktop/github_project/staging/github_good_project/cJSonProjects/code_for_cds/cmake-build-debug/CMakeFiles/code_for_cds.dir
+C:/Users/cds/Desktop/github_project/staging/github_good_project/cJSonProjects/code_for_cds/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/cds/Desktop/github_project/staging/github_good_project/cJSonProjects/code_for_cds/cmake-build-debug/CMakeFiles/rebuild_cache.dir

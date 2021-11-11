@@ -1,0 +1,5 @@
+C:\Users\cds\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.5981.166\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=C:/MinGW/bin/gcc.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\cds\Desktop\github_project\staging\github_good_project\cJSonProjects\code_for_cds
+鍖呭惈澶存枃浠�: cjson 璺緞涓�: ../cJSON
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/cds/Desktop/github_project/staging/github_good_project/cJSonProjects/code_for_cds/cmake-build-debug
