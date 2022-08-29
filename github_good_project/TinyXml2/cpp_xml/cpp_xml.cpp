@@ -2,6 +2,7 @@
 
 #include "tinyxml2_read.h"
 #include <../tinyxml2/tinyxml2.h>
+#include <unistd.h>
 
 #include <iostream>
 //#include <tinyxml2.h>
@@ -139,13 +140,17 @@ int create_xml_file(const char* file_name)
     
     ret = doc.SaveFile(file_name);
 
+    return 0;
 }
 
 int main()
 {
-    const char* file_name = "./tinyxml2/resources/dream_cds.xml";
+    const char* file_name = "./tinyxml2/resources/dream.xml";
     //create_xml_file(file_name);
     //loadFile(file_name);
+    char path[50];
+    getcwd(path, 50);
+    cout << "file path:" << path << endl;
     bool a;
     NewFunction(a);
     return 0;
@@ -159,7 +164,7 @@ int NewFunction(bool& retflag)
     XMLDocument document;
     document.LoadFile(filePath.c_str());
     if (document.ErrorID() != XML_SUCCESS) {
-        cout << "load file: " << filePath << "faild" << endl;
+        cout << "load file: " << filePath << "  faild" << endl;
         return FAILD;
     }
     //document.Print();
